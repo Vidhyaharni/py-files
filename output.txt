@@ -1,0 +1,44 @@
+
+
+IP Address : 201:d6b8:3333:4444:5555:6606:7777:8888
+invalid,each hextet should contain only 4 digits
+
+IP Address : 6543:bcbc:bc54:765a:cad4:efe4:eee9:0000
+valid
+
+IP Address : 2001:7db8:3333:4444:CCCC:DDDD:EEEE:FFFF
+invalid,characters present in IP address must be either capital or small letters
+
+IP Address : 432a:6543:876cf:8765d:fads4:7654:csde:bcbc
+invalid,each hextet should contain only 4 digits
+
+IP Address : 0001:7db8:3333:4444:32aC:DDDD:EEEE:FFFF
+invalid,characters present in IP address must be either capital or small letters
+
+IP Address : 0:4321:bcd4:5432:acac:cfcf:ffff:fefb
+valid
+
+IP Address : 6543:aaaa:bc54:765a:cad4:efe4:eee9:0000
+valid
+
+IP Address : 201:d6b8:3333:4444:5555:6606:7777:8888
+invalid,each hextet should contain only 4 digits
+
+IP Address : 6543:bcbc:bc54:765a:cad4:efe4:eee9:0000
+valid
+
+IP Address : 2001:7db8:3333:4444:CCCC:DDDD:EEEE:FFFF
+invalid,characters present in IP address must be either capital or small letters
+
+IP Address : 432a:6543:876cf:8765d:fads4:7654:csde:bcbc
+invalid,each hextet should contain only 4 digits
+
+IP Address : 0001:7db8:3333:4444:32aC:DDDD:EEEE:FFFF
+invalid,characters present in IP address must be either capital or small letters
+
+IP Address : 0:4321:bcd4:5432:acac:cfcf:ffff:fefb
+valid
+
+IP Address : 6543:aaaa:bc54:765a:cad4:efe4:eee9:0000
+valid
+
