@@ -34,7 +34,10 @@ def postfix_exp(inp):
             elif digit =='/':
                 output=num1/num2
                 stack.append(output)
-    return stack.pop()  
+    if len(stack)!=1:
+        print('invalid input')
+    else:
+        return stack.pop()  
 
 def output(ans):
     if ans==False:
